@@ -8,10 +8,16 @@ export const Home = () => {
   const name = "Manathunga M.M.U.S";
 
   const genreData = [
-    { id: 0, value: 40, label: "Horror" },
-    { id: 1, value: 30, label: "Sci-Fi" },
-    { id: 2, value: 20, label: "Fantasy" },
-    { id: 3, value: 10, label: "Mystery" },
+    { id: 0, value: 10, label: "Techno" },
+    { id: 1, value: 10, label: "RnB" },
+    { id: 2, value: 10, label: "Rap" },
+    { id: 3, value: 10, label: "Punk" },
+    { id: 4, value: 10, label: "Metal" },
+    { id: 5, value: 10, label: "Funk" },
+    { id: 6, value: 10, label: "Folk" },
+    { id: 7, value: 10, label: "Electro" },
+    { id: 8, value: 10, label: "Disco" },
+    { id: 9, value: 10, label: "Dance" },
   ];
 
   const handlePredict = async () => {
